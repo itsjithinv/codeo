@@ -1,12 +1,22 @@
-# Codeo 🌌
+# Codeo 
 
 ![VS Code Marketplace Installs](https://img.shields.io/visual-studio-marketplace/i/jithinv.codeo)
 ![Visual Studio Marketplace Version](https://img.shields.io/visual-studio-marketplace/v/jithinv.codeo)
 [![Preview in vscode.dev](https://img.shields.io/badge/preview%20in-vscode.dev-blue)](https://vscode.dev/theme/jithinv.codeo)
 
 
-A Visual Studio Code theme, the Codeo's out there. Fine-tuned for those of us who like to code late into the night. Color choices have taken into consideration what is accessible to people with colorblindness and in low-light circumstances. Decisions were also based on meaningful contrast for reading comprehension and for optimal razzle dazzle. ✨
+Fuel your late-night coding sessions with **Codeo**, a meticulously crafted Visual Studio Code theme designed to boost productivity and reduce eye strain. Perfect for developers who value accessibility, Codeo’s vibrant yet balanced color palette ensures readability for everyone.
 
+Key features:
+- ✨ Optimized for low-light environments to keep you coding comfortably through the night.
+- ✨ Thoughtfully designed contrasts for enhanced focus and reading comprehension.
+- ✨ A touch of style with colors that dazzle without overwhelming.
+
+Let **Codeo** light up your editor with a theme that’s as functional as it is beautiful. 🌙💻
+
+# Codeo
+
+![Preview](preview.png)
 
 # Installation
 

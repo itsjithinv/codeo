@@ -1,9 +1,9 @@
 {
   "name": "codeo",
   "displayName": "Codeo",
-  "description": "A clean and vibrant VS Code theme designed for developers.",
+  "description": "Codeo is a dynamic and visually stunning Visual Studio Code theme designed to improve focus and productivity. Codeo's clean design, rich color palette, and intuitive contrast provide a seamless coding experience for developers of all skill levels.",
   "version": "1.0.0",
-  "publisher": "itsmeJithin",
+  "publisher": "Jithin Vijayan",
   "license": "MIT",
   "repository": {
     "type": "git",

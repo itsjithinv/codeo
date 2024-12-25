@@ -622,14 +622,16 @@
       "name": "Boolean",
       "scope": "constant.language.boolean.false",
       "settings": {
-        "foreground": "#ff5874"
+        "foreground": "#ff5874",
+        "fontStyle": "bold"
       }
     },
     {
       "name": "Boolean",
       "scope": "constant.language.boolean.true",
       "settings": {
-        "foreground": "#3FBF7F"
+        "foreground": "#3FBF7F",
+        "fontStyle": "bold"
       }
     },
     {
