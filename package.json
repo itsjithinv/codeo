@@ -1,30 +1,27 @@
 {
-  "name": "night-owl",
-  "displayName": "Night Owl",
-  "description": "A VS Code theme for the night owls out there. Now introducing Light Owl theme for daytime usage. Decisions were based on meaningful contrast for reading comprehension and for optimal razzle dazzle. ✨",
-  "version": "2.0.2",
-  "publisher": "sdras",
-  "license": "SEE LICENSE IN LICENSE.md",
+  "name": "codeo",
+  "displayName": "Codeo",
+  "description": "A clean and vibrant VS Code theme designed for developers.",
+  "version": "1.0.0",
+  "publisher": "itsmeJithin",
+  "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/sdras/night-owl-vscode-theme"
+    "url": "https://github.com/itsmeJithin/codeo"
   },
   "keywords": [
     "Theme",
     "Dark Theme",
     "Light Theme",
-    "Night Owl",
-    "Night Theme",
-    "Light Owl",
-    "Snow Owl",
-    "Early Bird",
+    "Codeo",
+    "Codeo Light",
     "Accessible Theme"
   ],
   "scripts": {
     "publish": "vsce publish"
   },
   "galleryBanner": {
-    "color": "#061526",
+    "color": "#1E2A39",
     "theme": "dark"
   },
   "engines": {
@@ -33,28 +30,28 @@
   "categories": [
     "Themes"
   ],
-  "icon": "owl-icon.png",
+  "icon": "codeo-dark.png",
   "contributes": {
     "themes": [
       {
-        "label": "Night Owl",
+        "label": "Codeo",
         "uiTheme": "vs-dark",
-        "path": "./themes/Night Owl-color-theme.json"
+        "path": "./themes/codeo-color-theme.json"
       },
       {
-        "label": "Night Owl (No Italics)",
+        "label": "Codeo (No Italics)",
         "uiTheme": "vs-dark",
-        "path": "./themes/Night Owl-color-theme-noitalic.json"
+        "path": "./themes/codeo-color-theme-noitalic.json"
       },
       {
-        "label": "Night Owl Light",
+        "label": "Codeo Light",
         "uiTheme": "vs",
-        "path": "./themes/Night Owl-Light-color-theme.json"
+        "path": "./themes/codeo-color-theme.json"
       },
       {
-        "label": "Night Owl Light (No Italics)",
+        "label": "Codeo Light (No Italics)",
         "uiTheme": "vs",
-        "path": "./themes/Night Owl-Light-color-theme-noitalic.json"
+        "path": "./themes/codeo-light-color-theme-noitalic.json"
       }
     ]
   }
