@@ -1,4 +1,7 @@
-# Codeo 
+<p align="left">
+    <img src="https://raw.githubusercontent.com/itsjithinv/codeo/main/codeo-dark.png" width="80" />
+    <h1 align="left">Codeo</h1>
+</p>
 
 ![VS Code Marketplace Installs](https://img.shields.io/visual-studio-marketplace/i/JithinVijayan.codeo)
 ![Visual Studio Marketplace Version](https://img.shields.io/visual-studio-marketplace/v/JithinVijayan.codeo)
