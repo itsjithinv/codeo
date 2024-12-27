@@ -9,3 +9,42 @@
 main {
   margin-top: 20px;
 }
+
+.codeo {
+  font-family: monospace;
+  font-size: 1.2em;
+  color: #333;
+  background: #f8f8f8;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #e1e1e1;
+  margin: 10px 0;
+}
+
+.codeo #primaryCard span {
+  color: #f00000;
+  border: 1px solid #f00000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
