@@ -2,3 +2,13 @@
 .vscode-test/**
 .gitignore
 vsc-extension-quickstart.md
+bin/**
+node_modules/**
+scripts/**
+src/**
+tests/**
+.editorconfig
+generate.js
+jsconfig.json
+known-issues.md
+tsconfig.json

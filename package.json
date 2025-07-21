@@ -2,7 +2,7 @@
   "name": "codeo",
   "displayName": "Codeo Theme",
   "description": "Codeo is a dynamic and visually stunning Visual Studio Code theme designed to improve focus and productivity. Codeo's clean design, rich color palette, and intuitive contrast provide a seamless coding experience for developers of all skill levels.",
-  "version": "1.0.1",
+  "version": "1.2.0",
   "publisher": "JithinVijayan",
   "license": "MIT",
   "repository": {
@@ -18,7 +18,8 @@
     "Accessible Theme"
   ],
   "scripts": {
-    "publish": "vsce publish"
+    "build": "ts-node src/build-theme.ts",
+    "publish": "npm run build && vsce publish"
   },
   "galleryBanner": {
     "color": "#1E2A39",
@@ -54,5 +55,19 @@
         "path": "./themes/codeo-light-color-theme-noitalic.json"
       }
     ]
+  },
+  "devDependencies": {
+    "@types/node": "^22.16.5",
+    "@typescript-eslint/eslint-plugin": "^8.18.2",
+    "@typescript-eslint/parser": "^8.18.2",
+    "eslint": "^9.17.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "prettier": "^3.4.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.3"
+  },
+  "dependencies": {
+    "fs-extra": "^11.2.0"
   }
 }
