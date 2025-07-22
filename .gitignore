@@ -78,3 +78,5 @@ jspm_packages
 dist
 
 *.vsix
+
+scripts/theme-comparison-results.json

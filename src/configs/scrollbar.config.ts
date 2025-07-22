@@ -7,7 +7,7 @@ export class ScrollbarConfig extends AbstractBaseConfig {
       'scrollbarSlider.activeBackground':
         this.theme.scrollbarSliderActiveBackground,
       'scrollbarSlider.background': this.theme.scrollbarSliderBackground,
-      'scrollbarSlider.hoverBackground': this.theme.scrollbarSliderHover,
+      'scrollbarSlider.hoverBackground': this.theme.scrollbarSliderHoverBackground,
     };
   }
 }

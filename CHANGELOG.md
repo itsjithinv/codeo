@@ -10,6 +10,7 @@ All notable changes to this project will be documented in this file.
 - Updated package display name and publisher ID
 
 ### Added
+- Created TypeScript configuration files for each language and framework, making the theme easier to maintain and update.
 - Increased boolean value font weight in theme
 - Added configuration for dark and dark-noitalics themes
 

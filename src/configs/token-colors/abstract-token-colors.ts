@@ -1,7 +1,9 @@
+import { DarkColors } from "../../colors";
+
 export abstract class AbstractTokenColorsConfig {
-  theme: any;
+  theme: typeof DarkColors;
   fontStyle: string;
-  constructor(theme: any, fontStyle: string) {
+  constructor(theme: typeof DarkColors, fontStyle: string) {
     this.theme = theme;
     this.fontStyle = fontStyle;
   }

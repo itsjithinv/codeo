@@ -17,7 +17,6 @@ import { StatusbarConfig } from './configs/status-bar.config';
 import { TabConfig } from './configs/tab.config';
 import { TerminalConfig } from './configs/terminal.config';
 import { TitleBarConfig } from './configs/title-bar.config';
-import { SettingsConfig } from './configs/settings.config';
 
 // Token color configs
 import { GeneralTokenColorConfig } from './configs/token-colors/general/general-token-color.config';
@@ -43,6 +42,7 @@ import { HTMLTokenColorConfig } from './configs/token-colors/html/html-token-col
 
 import * as fs from 'fs';
 import * as path from 'path';
+import { CssTokenColorConfig } from './configs/token-colors/css/css-token-color.config';
 
 function buildTheme({ theme, type, name, outFile, fontStyleOverride }: {
   theme: any,
@@ -70,7 +70,6 @@ function buildTheme({ theme, type, name, outFile, fontStyleOverride }: {
     new TabConfig(theme),
     new TerminalConfig(theme),
     new TitleBarConfig(theme),
-    new SettingsConfig(theme),
   ];
 
   // Token color configs
@@ -85,17 +84,18 @@ function buildTheme({ theme, type, name, outFile, fontStyleOverride }: {
     new PHPTokenColorConfig(theme, fontStyle),
     new JavaScriptTokenColorConfig(theme, fontStyle),
     new RubyTokenColorConfig(theme, fontStyle),
+    new CssTokenColorConfig(theme, fontStyle),
     new JSONTokenColorConfig(theme, fontStyle),
     new GoTokenColorConfig(theme, fontStyle),
     new CSharpTokenColorConfig(theme, fontStyle),
     new CppTokenColorConfig(theme, fontStyle),
     new DartTokenColorConfig(theme, fontStyle),
     new ElixirTokenColorConfig(theme, fontStyle),
-    new CoffeeScriptTokenColorConfig(theme, fontStyle),
     new YAMLTokenColorConfig(theme, fontStyle),
     new PowershellTokenColorConfig(theme, fontStyle),
     new ClojureTokenColorConfig(theme, fontStyle),
     new HTMLTokenColorConfig(theme, fontStyle),
+    new CoffeeScriptTokenColorConfig(theme, fontStyle),
   ];
 
   // Collect colors
@@ -106,6 +106,7 @@ function buildTheme({ theme, type, name, outFile, fontStyleOverride }: {
   const themeJson = {
     name,
     type,
+    semanticHighlighting: false,
     colors,
     tokenColors,
   };
@@ -126,12 +127,14 @@ buildTheme({
   type: 'dark',
   name: 'Codeo',
   outFile: 'codeo-color-theme.json',
+  fontStyleOverride: 'italic'
 });
 buildTheme({
   theme: LightColors,
   type: 'light',
   name: 'Codeo Light',
   outFile: 'codeo-light-color-theme.json',
+  fontStyleOverride: 'italic'
 });
 buildTheme({
   theme: DarkColors,

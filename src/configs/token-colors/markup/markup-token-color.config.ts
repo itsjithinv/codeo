@@ -20,7 +20,7 @@ export class MarkupTokenColorConfig extends AbstractTokenColorsConfig {
         name: 'Deleted',
         scope: 'markup.deleted.diff',
         settings: {
-          foreground: this.theme.deleted,
+          foreground: this.theme.markupDeletedDiff,
           fontStyle: this.fontStyle,
         },
       },
@@ -28,7 +28,7 @@ export class MarkupTokenColorConfig extends AbstractTokenColorsConfig {
         name: 'Inserted',
         scope: 'markup.inserted.diff',
         settings: {
-          foreground: this.theme.inserted,
+          foreground: this.theme.markupInsertedDiff,
           fontStyle: this.fontStyle,
         },
       },
@@ -64,7 +64,7 @@ export class MarkupTokenColorConfig extends AbstractTokenColorsConfig {
         scope: 'markup.quote.markdown',
         settings: {
           foreground: this.theme.markdownQuote,
-          fontStyle: 'italic',
+          fontStyle: this.fontStyle,
         },
       },
       {
@@ -89,6 +89,46 @@ export class MarkupTokenColorConfig extends AbstractTokenColorsConfig {
         scope: 'markup.inline.raw.string.markdown',
         settings: {
           foreground: this.theme.markdownInlineRawString,
+        },
+      },
+      {
+        name: 'Markdown Link Title and Description',
+        scope: [
+          'string.other.link.title.markdown',
+          'string.other.link.description.markdown',
+        ],
+        settings: {
+          foreground: this.theme.markdownLinkTitleDescription,
+        },
+      },
+      {
+        name: 'Markdown Punctuation',
+        scope: [
+          'punctuation.definition.string.markdown',
+          'punctuation.definition.string.begin.markdown',
+          'punctuation.definition.string.end.markdown',
+          'meta.link.inline.markdown punctuation.definition.string',
+        ],
+        settings: {
+          foreground: this.theme.markdownPunctuation,
+        },
+      },
+      {
+        name: 'Markdown MetaData Punctuation',
+        scope: [
+          'punctuation.definition.metadata.markdown',
+        ],
+        settings: {
+          foreground: this.theme.markdownMetaDataPunctuation,
+        },
+      },
+      {
+        name: 'Markdown List Punctuation',
+        scope: [
+          'beginning.punctuation.definition.list.markdown',
+        ],
+        settings: {
+          foreground: this.theme.markdownListPunctuation,
         },
       },
     ];

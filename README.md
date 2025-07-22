@@ -70,3 +70,41 @@ The font in the preview image is Jetbrains Mono, [available here](https://www.je
 "editor.fontFamily": "Jetbrains Mono",
 "editor.fontLigatures": true,
 ```
+
+# What's New
+
+- The theme's codebase now uses TypeScript configuration files for each language and framework, making it much easier to maintain and update individual language styles.
+
+# Development
+
+To build the theme files from source (after making changes to the TypeScript configuration):
+
+```bash
+npm install
+npm run build
+```
+
+This will generate the latest theme JSON files in the `themes/` directory based on the TypeScript configs in `src/`.
+
+# Publishing
+
+To publish the theme to the Visual Studio Code Marketplace:
+
+1. Make sure you have the [VSCE](https://code.visualstudio.com/api/working-with-extensions/publishing-extension) tool installed:
+   ```bash
+   npm install -g vsce
+   ```
+2. Build the theme:
+   ```bash
+   npm run build
+   ```
+3. Publish:
+   ```bash
+   vsce publish
+   ```
+   Or use the npm script:
+   ```bash
+   npm run publish
+   ```
+
+Make sure you are logged in with your publisher account before publishing.

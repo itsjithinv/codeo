@@ -22,18 +22,16 @@ export class EditorConfig extends AbstractBaseConfig {
       'editor.findMatchHighlightBackground':
         this.theme.editorFindMatchHighlightBackground,
       'editor.findRangeHighlightBackground':
-        this.theme.editorFindMatchHighlightBackground,
+        this.theme.editorFindRangeHighlightBackground,
       'editor.hoverHighlightBackground':
         this.theme.editorHoverHighlightBackground,
       'editor.lineHighlightBackground':
         this.theme.editorLineHighlightBackground,
-      'editor.lineHighlightBorder': this.theme.editorLineHighlightBackground,
-      'editorLink.activeForeground': this.theme.editorForeground,
+      'editor.lineHighlightBorder': this.theme.editorLineHighlightBorder,
+      'editorLink.activeForeground': this.theme.editorLinkActiveForeground,
       'editor.rangeHighlightBackground':
-        this.theme.editorFindMatchHighlightBackground,
+        this.theme.editorRangeHighlightBackground,
       'editorWhitespace.foreground': this.theme.editorWhitespaceForeground,
-      'editorIndentGuide.background': this.theme.editorIndentGuideBackground,
-      'editorIndentGuide.activeBackground': this.theme.editorIndentGuideActiveBackground,
       'editorRuler.foreground': this.theme.editorRulerForeground,
       'editorCodeLens.foreground': this.theme.editorCodeLensForeground,
       'editorOverviewRuler.currentContentForeground':
@@ -81,6 +79,9 @@ export class EditorConfig extends AbstractBaseConfig {
       'editorGroupHeader.tabsBackground':
         this.theme.editorGroupHeaderTabsBackground,
       'editorGroupHeader.tabsBorder': this.theme.editorGroupHeaderTabsBorder,
+      'editorMarkerNavigation.background': this.theme.editorMarkerNavigationBackground,
+      'editorMarkerNavigationError.background': this.theme.editorMarkerNavigationErrorBackground,
+      'editorMarkerNavigationWarning.background': this.theme.editorMarkerNavigationWarningBackground,
     };
   }
 }

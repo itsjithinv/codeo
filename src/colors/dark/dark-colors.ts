@@ -13,6 +13,7 @@ export const DarkColors = {
   dropdownBorder: '#5f7e97',
   dropdownForeground: '#ffffffcc',
   inputBackground: '#0b253a',
+  inputForeground: '#ffffffcc',
   inputBorder: '#5f7e97',
   inputPlaceholderForeground: '#5f7e97',
   inputOptionActiveBorder: '#ffffffcc',
@@ -160,6 +161,7 @@ export const DarkColors = {
   extensionButtonProminentForeground: '#ffffffcc',
   extensionButtonProminentBackground: '#7e57c2cc',
   extensionButtonProminentHoverBackground: '#7e57c2',
+  editorForeground: '#d6deeb',
   pickerGroupForeground: '#d1aaff',
   pickerGroupBorder: '#011627',
   terminalAnsiWhite: '#ffffff',
@@ -191,9 +193,21 @@ export const DarkColors = {
   gitDecorationUntrackedResourceForeground: '#c5e478ff',
   gitDecorationIgnoredResourceForeground: '#395a75',
   gitDecorationConflictingResourceForeground: '#ffeb95cc',
-  // source.elm: '#5f7e97', // removed
-  // string.quoted.single.js: '#ffffff', // removed
-  // activityBar.dropBackground: '#5f7e97', // removed
+  sourceElm: '#5f7e97',
+  stringQuotedSingleJs: '#ffffff',
+  metaObjectLiteralJs: '#6CC0FF',
+  editorFindRangeHighlightBackground: null,
+  editorLineHighlightBorder: null,
+  editorLinkActiveForeground: null,
+  editorWhitespaceForeground: null,
+  editorErrorBorder: null,
+  editorWarningBorder: null,
+  mergeCurrentContentBackground: null,
+  mergeIncomingContentBackground: null,
+  mergeBorder: null,
+  statusBarDebuggingForeground: null,
+  statusBarNoFolderForeground: null,
+  titleBarInactiveForeground: null,
   // Markup colors
   markupChanged: '#a2bffc',
   markupDeleted: '#EF535090',
@@ -314,6 +328,9 @@ export const DarkColors = {
   csharpRegion: '#ffcb8b',
   csharpOtherVariable: '#B2CCD6',
   csharpEnum: '#c5e478',
+  csharpUnquotedStringZone: '#d6deeb',
+  csharpOtherVariables: '#B2CCD6',
+
   // dart
   dartString: '#FFCB8B',
   dartClass: '#FFCB8B',
@@ -365,6 +382,8 @@ export const DarkColors = {
   // JavaScript Variables
   jsVariables: '#d6deeb',
 
+  jsVariableOtherReadWrite: '#d7dbe0',
+
   // JavaScript Entity Name Type
   jsEntityNameType: '#ffcb8b',
 
@@ -388,6 +407,11 @@ export const DarkColors = {
 
   // JavaScript Other Variable
   jsOtherVariable: '#7fdbca',
+  jsOtherVariableItalic: '#7fdbca',
+  jsEntityNamesInCodeDocumentations: '#938e85',
+  jsOtherVariablesInCodeDocumentations: '#78ccf0',
+  jsSupportClassComponent: '#f78c6c',
+  jsTextNestedInReactTags: '#d6deeb',
 
   // Ruby Variables
   rubyVariables: '#d6deeb',
@@ -403,6 +427,7 @@ export const DarkColors = {
   attributeNameForLess: '#F78C6C',
   markdownHeadings: '#82b1ff',
   markdownItalics: '#EC7FFF',
+  lessAttributeName: '#F78C6C',
 
   // Markdown
   markdownBold: '#c5e478',
@@ -430,14 +455,12 @@ export const DarkColors = {
   pythonDecoratorFunction: '#c5e478',
   pythonLanguageVariable: '#8EACE3',
   pythonImportControlKeyword: '#EC7FFF',
-
-  // SCSS
   scssVariable: '#c5e478',
-  scssVariablesInAtRules: '#6CC0FF',
-  scssVariablesInAtRulesAlternate: '#bec5d4',
-  scssAttributeName: '#F78C6C',
+  variablesInSassAtRules: '#6CC0FF',
+  variablesInSassAtRulesAlt: '#bec5d4',
+  attributeNameForSass: '#F78C6C',
   scssTagNames: '#7fdbca',
-  scssKeywordOtherUnit: '#FFEB95',
+  sassKeywordOtherUnit: '#FFEB95',
   // TypeScript
   typescriptVariables: '#d6deeb',
   typescriptEntityNameTypes: '#ffcb8b',
@@ -452,12 +475,7 @@ export const DarkColors = {
   typescriptMethodDeclaration: '#6CC0FF',
 
   yamlEntityNameTags: '#7fdbca',
-  javascriptVariableOtherReadWrite: '#d7dbe0',
-  supportClassComponent: '#f78c6c',
-  textNestedInReactTags: '#d6deeb',
-
-  normalizeFontStyle: '',
-  variablesInSassAtRules: '#6CC0FF',
-  variablesInSassAtRulesAlt: '#bec5d4',
-  attributeNameForSass: '#F78C6C',
-};
+  markupDeletedDiff: '#EF535090',
+  markupInsertedDiff: '#c5e478ff',
+  attributeNameForCss: '#F78C6C',
+}

@@ -5,18 +5,18 @@ export class PowershellTokenColorConfig extends AbstractTokenColorsConfig {
     return [
       {
         name: 'Powershell Variables',
-        scope: 'variable.other.readwrite.powershell',
+        scope: ['variable.other.readwrite.powershell'],
         settings: {
           foreground: this.theme.powershellVariables,
         },
       },
       {
         name: 'Powershell Function',
-        scope: 'support.function.powershell',
+        scope: ['support.function.powershell'],
         settings: {
           foreground: this.theme.powershellFunction,
         },
       },
     ];
   }
-} 
+}

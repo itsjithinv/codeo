@@ -4,7 +4,7 @@ export class TypeScriptTokenColorConfig extends AbstractTokenColorsConfig {
   generateConfig(): object[] {
     return [
       {
-        name: 'TypeScript Variables and Object Properties',
+        name: 'TypeScript[React] Variables and Object Properties',
         scope: [
           'variable.other.readwrite.alias.ts',
           'variable.other.readwrite.alias.tsx',
@@ -24,7 +24,7 @@ export class TypeScriptTokenColorConfig extends AbstractTokenColorsConfig {
         },
       },
       {
-        name: 'TypeScript Entity Name Types',
+        name: 'TypeScript[React] Entity Name Types',
         scope: [
           'entity.name.type.ts',
           'entity.name.type.tsx',
@@ -34,7 +34,7 @@ export class TypeScriptTokenColorConfig extends AbstractTokenColorsConfig {
         },
       },
       {
-        name: 'TypeScript Node Classes',
+        name: 'TypeScript[React] Node Classes',
         scope: [
           'support.class.node.ts',
           'support.class.node.tsx',
@@ -44,7 +44,7 @@ export class TypeScriptTokenColorConfig extends AbstractTokenColorsConfig {
         },
       },
       {
-        name: 'TypeScript Entity Name Types as Parameters',
+        name: 'TypeScript[React] Entity Name Types as Parameters',
         scope: [
           'meta.type.parameters.ts entity.name.type',
           'meta.type.parameters.tsx entity.name.type',
@@ -54,7 +54,7 @@ export class TypeScriptTokenColorConfig extends AbstractTokenColorsConfig {
         },
       },
       {
-        name: 'TypeScript Import/Export Punctuations',
+        name: 'TypeScript[React] Import/Export Punctuations',
         scope: [
           'meta.import.ts punctuation.definition.block',
           'meta.import.tsx punctuation.definition.block',
@@ -66,7 +66,7 @@ export class TypeScriptTokenColorConfig extends AbstractTokenColorsConfig {
         },
       },
       {
-        name: 'TypeScript Punctuation Decorators',
+        name: 'TypeScript[React] Punctuation Decorators',
         scope: [
           'meta.decorator punctuation.decorator.ts',
           'meta.decorator punctuation.decorator.tsx',
@@ -76,7 +76,7 @@ export class TypeScriptTokenColorConfig extends AbstractTokenColorsConfig {
         },
       },
       {
-        name: 'TypeScript Punctuation Decorators (JSX)',
+        name: 'TypeScript[React] Punctuation Decorators (JSX)',
         scope: 'meta.tag.js meta.jsx.children.tsx',
         settings: {
           foreground: this.theme.typescriptPunctuationDecoratorsJsx,
@@ -110,7 +110,7 @@ export class TypeScriptTokenColorConfig extends AbstractTokenColorsConfig {
         },
       },
       {
-        name: 'TypeScript Method Declaration',
+        name: 'TypeScript Method Declaration e.g. `constructor`',
         scope: [
           'meta.method.declaration storage.type.ts',
           'meta.method.declaration storage.type.tsx',

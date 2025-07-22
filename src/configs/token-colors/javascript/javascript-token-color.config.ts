@@ -11,7 +11,7 @@ export class JavaScriptTokenColorConfig extends AbstractTokenColorsConfig {
         },
       },
       {
-        name: 'JavaScript Method Declaration',
+        name: 'JavaScript Method Declaration e.g. `constructor`',
         scope: 'meta.method.declaration storage.type.js',
         settings: {
           foreground: this.theme.javascriptMethodDeclaration,
@@ -88,13 +88,55 @@ export class JavaScriptTokenColorConfig extends AbstractTokenColorsConfig {
         scope: 'variable.other.object.js',
         settings: {
           foreground: this.theme.jsOtherVariable,
+          fontStyle: this.fontStyle,
         },
       },
       {
         name: 'JavaScript Variable Other ReadWrite',
         scope: ['variable.other.readwrite.js', 'variable.parameter'],
         settings: {
-          foreground: this.theme.javascriptVariableOtherReadWrite,
+          foreground: this.theme.jsVariableOtherReadWrite,
+        },
+      },
+      {
+        name: 'Entity Names in Code Documentations',
+        scope: [
+          'entity.name.type.instance.jsdoc',
+          'entity.name.type.instance.phpdoc',
+        ],
+        settings: {
+          foreground: this.theme.jsEntityNamesInCodeDocumentations,
+        },
+      },
+      {
+        name: 'Other Variables in Code Documentations',
+        scope: [
+          'variable.other.jsdoc',
+          'variable.other.phpdoc',
+        ],
+        settings: {
+          foreground: this.theme.jsOtherVariablesInCodeDocumentations,
+        },
+      },
+      {
+        name: 'Support Class Component',
+        scope: [
+          'support.class.component.js',
+          'support.class.component.tsx',
+        ],
+        settings: {
+          foreground: this.theme.jsSupportClassComponent,
+        },
+      },
+      {
+        name: 'Text nested in React tags',
+        scope: [
+          'meta.jsx.children',
+          'meta.jsx.children.js',
+          'meta.jsx.children.tsx',
+        ],
+        settings: {
+          foreground: this.theme.jsTextNestedInReactTags,
         },
       },
     ];

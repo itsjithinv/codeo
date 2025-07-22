@@ -24,7 +24,7 @@ export class CSharpTokenColorConfig extends AbstractTokenColorsConfig {
         name: 'C# Namespaces',
         scope: 'entity.name.type.namespace.cs',
         settings: {
-          foreground: this.theme.csharpNamespaces,
+          foreground: this.theme.csharpNamespace,
         },
       },
       {

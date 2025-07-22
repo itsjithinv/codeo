@@ -27,10 +27,11 @@ export class GoTokenColorConfig extends AbstractTokenColorsConfig {
         ],
         settings: {
           foreground: this.theme.goKeywords,
+          fontStyle: this.fontStyle,
         },
       },
       {
-        name: 'Go Constants',
+        name: 'Go Constants e.g. nil, string format (%s, %d, etc.)',
         scope: [
           'source.go constant.language.go',
           'source.go constant.other.placeholder.go',

@@ -33,7 +33,7 @@ export class HTMLTokenColorConfig extends AbstractTokenColorsConfig {
         scope: 'meta.tag.sgml.doctype.html',
         settings: {
           foreground: this.theme.htmlDoctype,
-          fontStyle: 'italic',
+          fontStyle: this.fontStyle,
         },
       },
       {

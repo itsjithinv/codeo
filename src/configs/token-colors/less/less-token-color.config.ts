@@ -12,7 +12,7 @@ export class LESSTokenColorConfig extends AbstractTokenColorsConfig {
       },
       {
         name: 'LESS Keyword Other Unit',
-        scope: 'keyword.other.unit.css',
+        scope: 'keyword.other.unit.less',
         settings: {
           foreground: this.theme.lessKeywordOtherUnit,
         },

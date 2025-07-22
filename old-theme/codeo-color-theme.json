@@ -20,7 +20,6 @@
     "input.foreground": "#ffffffcc",
     "input.placeholderForeground": "#5f7e97",
     "inputOption.activeBorder": "#ffffffcc",
-    "punctuation.definition.generic.begin.html": "#ef5350f2",
     "inputValidation.errorBackground": "#AB0300F2",
     "inputValidation.errorBorder": "#EF5350",
     "inputValidation.infoBackground": "#00589EF2",
@@ -33,7 +32,6 @@
     "scrollbarSlider.hoverBackground": "#084d8180",
     "badge.background": "#5f7e97",
     "badge.foreground": "#ffffff",
-    "progress.background": "#7e57c2",
     "breadcrumb.foreground": "#A599E9",
     "breadcrumb.focusForeground": "#ffffff",
     "breadcrumb.activeSelectionForeground": "#FFFFFF",
@@ -50,7 +48,6 @@
     "list.inactiveSelectionBackground": "#0e293f",
     "list.inactiveSelectionForeground": "#5f7e97",
     "activityBar.background": "#011627",
-    "activityBar.dropBackground": "#5f7e97",
     "activityBar.foreground": "#5f7e97",
     "activityBar.border": "#011627",
     "activityBarBadge.background": "#44596b",
@@ -95,8 +92,6 @@
     "editorLink.activeForeground": null,
     "editor.rangeHighlightBackground": "#7e57c25a",
     "editorWhitespace.foreground": null,
-    "editorIndentGuide.background": "#5e81ce52",
-    "editorIndentGuide.activeBackground": "#7E97AC",
     "editorRuler.foreground": "#5e81ce52",
     "editorCodeLens.foreground": "#5e82ceb4",
     "editorOverviewRuler.currentContentForeground": "#7e57c2",
@@ -200,17 +195,12 @@
     "terminalCursor.background": "#234d70",
     "textCodeBlock.background": "#4f4f4f",
     "debugToolBar.background": "#011627",
-    "welcomePage.buttonBackground": "#011627",
-    "welcomePage.buttonHoverBackground": "#011627",
     "walkThrough.embeddedEditorBackground": "#011627",
     "gitDecoration.modifiedResourceForeground": "#a2bffc",
     "gitDecoration.deletedResourceForeground": "#EF535090",
     "gitDecoration.untrackedResourceForeground": "#c5e478ff",
     "gitDecoration.ignoredResourceForeground": "#395a75",
-    "gitDecoration.conflictingResourceForeground": "#ffeb95cc",
-    "source.elm": "#5f7e97",
-    "string.quoted.single.js": "#ffffff",
-    "meta.objectliteral.js": "#6CC0FF"
+    "gitDecoration.conflictingResourceForeground": "#ffeb95cc"
   },
   "tokenColors": [
     {
@@ -245,7 +235,6 @@
     {
       "name": "Global settings",
       "settings": {
-        "background": "#011627",
         "foreground": "#d6deeb"
       }
     },
@@ -608,7 +597,7 @@
       }
     },
     {
-      "name": "Boolean",
+      "name": "Boolean (false)",
       "scope": "constant.language.boolean.false",
       "settings": {
         "foreground": "#ff5874",
@@ -616,7 +605,7 @@
       }
     },
     {
-      "name": "Boolean",
+      "name": "Boolean (true)",
       "scope": "constant.language.boolean.true",
       "settings": {
         "foreground": "#3FBF7F",
@@ -755,15 +744,6 @@
       "settings": {
         "foreground": "#faf39f",
         "fontStyle": "italic"
-      }
-    },
-    {
-      "name": "Variable Property Other object",
-      "scope": [
-        "variable.other.object.js"
-      ],
-      "settings": {
-        "fontStyle": ""
       }
     },
     {
@@ -1483,7 +1463,7 @@
     },
     {
       "name": "LESS Keyword Other Unit",
-      "scope": "keyword.other.unit.css",
+      "scope": "keyword.other.unit.less",
       "settings": {
         "foreground": "#FFEB95"
       }
@@ -1711,16 +1691,6 @@
       }
     },
     {
-      "name": "Variables in SASS At-Rules",
-      "scope": [
-        "source.css.scss meta.at-rule variable",
-        "source.css.sass meta.at-rule variable"
-      ],
-      "settings": {
-        "foreground": "#bec5d4"
-      }
-    },
-    {
       "name": "Attribute Name for SASS",
       "scope": [
         "meta.attribute-selector.scss entity.other.attribute-name.attribute",
@@ -1823,7 +1793,7 @@
       }
     },
     {
-      "name": "TypeScript[React] Punctuation Decorators",
+      "name": "TypeScript[React] Punctuation Decorators (JSX)",
       "scope": "meta.tag.js meta.jsx.children.tsx",
       "settings": {
         "foreground": "#6CC0FF"

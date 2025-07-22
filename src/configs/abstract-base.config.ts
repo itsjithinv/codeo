@@ -1,6 +1,7 @@
+import { DarkColors } from "../colors";
 export abstract class AbstractBaseConfig {
-  theme: any;
-  constructor(theme: any) {
+  theme: typeof DarkColors;
+  constructor(theme: typeof DarkColors) {
     this.theme = theme;
   }
 

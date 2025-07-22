@@ -7,7 +7,7 @@ export class ClojureTokenColorConfig extends AbstractTokenColorsConfig {
         name: 'Closure Constant Keyword',
         scope: 'constant.keyword.clojure',
         settings: {
-          foreground: this.theme.clojureConstantKeyword,
+          foreground: this.theme.closureConstantKeyword,
         },
       },
     ];

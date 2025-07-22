@@ -8,7 +8,7 @@ export class GitConfig extends AbstractBaseConfig {
       'gitDecoration.deletedResourceForeground':
         this.theme.gitDecorationDeletedResourceForeground,
       'gitDecoration.untrackedResourceForeground':
-        this.theme.untrackedResourceForeground,
+        this.theme.gitDecorationUntrackedResourceForeground,
       'gitDecoration.ignoredResourceForeground':
         this.theme.gitDecorationIgnoredResourceForeground,
       'gitDecoration.conflictingResourceForeground':

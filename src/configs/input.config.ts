@@ -5,7 +5,7 @@ export class InputConfig extends AbstractBaseConfig {
     return {
       'input.background': this.theme.inputBackground,
       'input.border': this.theme.inputBorder,
-      'input.foreground': this.theme.foreground,
+      'input.foreground': this.theme.inputForeground,
       'input.placeholderForeground': this.theme.inputPlaceholderForeground,
       'inputOption.activeBorder': this.theme.inputOptionActiveBorder,
       'inputValidation.errorBackground':
